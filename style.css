@@ -5,21 +5,21 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.information-block {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.information-block img {
+.info img {
   width: 100%;
 }
-.information-block .information-link {
+.info .info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information-block { text-align: center;
+  .info { text-align: center;
   }
 }
 .main {
