@@ -22,7 +22,8 @@
 
 @media (max-width: 768px) {
 
-  .info { text-align: center;
+  .info {
+    text-align: center;
   }
 
 }
@@ -33,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.task-input, .task-label {
+.task-input,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -52,7 +54,8 @@
   list-style: none;
 }
 
-.task-input,.btn{
+.task-input,
+.btn {
   outline: none;
 }
 
@@ -113,7 +116,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +136,7 @@
   width: 226px;
 }
 
-.task >    .task-input {
+.task > .task-input {
   width: 226px;
 }
 
